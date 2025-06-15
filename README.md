@@ -1,68 +1,69 @@
-<h1 align="center">📊 Celebal SQL Internship Tasks - Summer 2025 </h1>
+# 📊 Celebal Technologies - SQL Internship Tasks (Summer 2025)
 
-Welcome to the official repository for my SQL tasks completed during the **Celebal Technologies Summer Internship 2025**. This repository is structured week-wise as per the course modules provided on the Celebal Internship Portal.
+Welcome to my official repository for **SQL Internship Tasks** completed as part of the **Celebal Technologies Summer Internship 2025**. This repo is organized week-wise based on the modules provided during the internship.
 
 ---
 
-## 📅 Internship Details
+## 🧾 Internship Overview
 
 - **🏢 Company:** Celebal Technologies  
-- **👨‍💻 Role:** SQL Intern  
-- **📆 Duration:** June 2, 2025 – August 3, 2025  
+- **👨‍💻 Position:** SQL Intern  
+- **📅 Duration:** June 2, 2025 – August 3, 2025  
 
 ---
 
-## 🗂 Weekly Breakdown
+## 📂 Task Breakdown by Week
 
-### 🔹 Week 1 - DDL & Basic SQL Operations
-Tasks focused on foundational SQL concepts like:
+### 🔷 Week 1: DDL & Basic SQL Operations
 
-- Creating, Altering, Dropping Databases and Tables  
-- SQL Constraints (Primary, Foreign, Default, Check, etc.)  
-- Data Types in SQL Server  
-- SQL Commands: `INSERT`, `UPDATE`, `DELETE`  
-- `SELECT` Statements  
-- Joins and Advanced Joins  
-- Aggregation and Set Operations  
-- Relationship Modeling and Referential Integrity  
+In this module, I covered the core SQL fundamentals including:
 
-📁 **Folder:** `Week-1-DDL/`  
-📄 **Assignment:** `Level A Task Solutions`
+- Database & Table creation/modification (`CREATE`, `ALTER`, `DROP`)  
+- SQL Constraints: `PRIMARY KEY`, `FOREIGN KEY`, `DEFAULT`, `CHECK`, etc.  
+- SQL Server Data Types  
+- CRUD Operations: `INSERT`, `UPDATE`, `DELETE`  
+- Data Retrieval with `SELECT`  
+- Various types of `JOINS`  
+- Aggregate Functions & Set Operations  
+- Relational Modeling Concepts
 
----
-
-### 🔹 Week 2 - Built-In Functions, Procedures, Views & Triggers
-
-This week focuses on advanced SQL concepts using the **AdventureWorks2022** database, including built-in functions, user-defined functions, stored procedures, views, and triggers.
-
-#### 📚 Key Topics:
-
-- Built-in String, DateTime, Math, Cast/Convert Functions  
-- User Defined Functions (UDFs)  
-- Views (Standard, Updatable, Indexed, with Limitations)  
-- Stored Procedures for Insert, Update, Delete, Fetch Operations  
-- Triggers for Referential Integrity and Inventory Management  
-
-📁 **Folder:** `Week-2-BuiltIn-Functions/`  
-📄 **Assignment:** `Level B Task Solutions`
+**📁 Folder:** `Week-1-DDL/`  
+**📄 File:** `Level A Task Solutions.sql`
 
 ---
 
-## 🚀 How to Use
+### 🔷 Week 2: Functions, Views, Procedures & Triggers
 
-1. Clone this repository or download it as a ZIP.  
-2. Open `.sql` files using SQL Server Management Studio (SSMS) or Azure Data Studio.  
-3. Execute the queries on the **Adventure works2022** database.  
-4. Files are named and commented for clarity.
+Advanced SQL concepts implemented using the **AdventureWorks2022** database:
+
+- **Built-in Functions:** String, DateTime, Math, Type Conversion  
+- **User Defined Functions (UDFs)** – Scalar & Table-Valued  
+- **Views:** Creation, Updatable Views, Indexed Views  
+- **Stored Procedures:** Handling Insert/Update/Delete/Fetch logic  
+- **Triggers:** For enforcing business rules and inventory integrity
+
+**📁 Folder:** `Week-2-BuiltIn-Functions/`  
+**📄 File:** `Level B Task Solutions.sql`
 
 ---
 
-## 👤 Author
+## 🛠️ Getting Started
+
+To run the scripts:
+
+1. Clone this repo or [Download ZIP](https://github.com/your-repo-link)
+2. Open `.sql` files using **SSMS** or **Azure Data Studio**
+3. Connect to the `AdventureWorks2022` database
+4. Run each script in sequence (files are well-commented for clarity)
+
+---
+
+## 👨‍🎓 Author
 
 **Rohit Wakchaure**  
-💼 SQL Intern @ Celebal Technologies  
-🔗 [LinkedIn](https://www.linkedin.com/in/rohit-wakchaure/)  
+🎓 SQL Intern @ Celebal Technologies  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/rohit-wakchaure/)
 
 ---
 
-> 📌 _This repository will be updated weekly with new assignments and tasks._
+> ✅ _This repository is actively updated with weekly assignments and practical tasks._
