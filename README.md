@@ -59,9 +59,9 @@ This week focuses on advanced SQL concepts using the **AdventureWorks2022** data
 
 ## 👤 Author
 
-**Krishna Shelar**  
+**Rohit Wakchaure**  
 💼 SQL Intern @ Celebal Technologies  
-🔗 [LinkedIn](https://www.linkedin.com/in/krishna-shelar-75294a255/)  
+🔗 [LinkedIn](https://www.linkedin.com/in/rohit-wakchaure/)  
 
 ---
 
