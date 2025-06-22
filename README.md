@@ -1,89 +1,83 @@
-# 📊 Celebal Technologies - SQL Internship Tasks (Summer 2025)
-
-Welcome to my official repository for **SQL Internship Tasks** completed as part of the **Celebal Technologies Summer Internship 2025**. This repo is organized week-wise based on the modules provided during the internship.
-
----
-
-## 🧾 Internship Overview
-
-- **🏢 Company:** Celebal Technologies  
-- **👨‍💻 Position:** SQL Intern  
-- **📅 Duration:** June 2, 2025 – August 3, 2025  
+# 🎓 Celebal Technologies - Summer Internship 2025  
+**Role: SQL Intern**  
+📅 _June 2 – August 3, 2025_  
+🔗 [LinkedIn](https://www.linkedin.com/in/rohit-wakchaure/)
 
 ---
 
-## 📂 Task Breakdown by Week
+## 📘 About the Internship
 
-### 🔷 Week 1: DDL & Basic SQL Operations
+This repository contains all the SQL assignments and practical tasks completed during my **Summer Internship at Celebal Technologies**. The content is structured **week-wise** and follows the official internship module provided by the company.
 
-In this module, I covered the core SQL fundamentals including:
-
-- Database & Table creation/modification (`CREATE`, `ALTER`, `DROP`)  
-- SQL Constraints: `PRIMARY KEY`, `FOREIGN KEY`, `DEFAULT`, `CHECK`, etc.  
-- SQL Server Data Types  
-- CRUD Operations: `INSERT`, `UPDATE`, `DELETE`  
-- Data Retrieval with `SELECT`  
-- Various types of `JOINS`  
-- Aggregate Functions & Set Operations  
-- Relational Modeling Concepts
-
-**📁 Folder:** `Week-1-DDL/`  
-**📄 File:** `Level A Task Solutions.sql`
+Each folder corresponds to one week and includes `.sql` files with complete solutions, detailed comments, and working examples based on the **AdventureWorks2022** database.
 
 ---
 
-### 🔷 Week 2: Functions, Views, Procedures & Triggers
+## 📌 Weekly Task Overview
 
-Advanced SQL concepts implemented using the **AdventureWorks2022** database:
+### ✅ Week 1: SQL Basics & DDL Operations  
+**Topics Covered:**
+- Schema & Table creation using `CREATE`, `ALTER`, `DROP`
+- Constraints: `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `CHECK`, etc.
+- CRUD: `INSERT`, `UPDATE`, `DELETE`
+- Data retrieval using `SELECT`, `WHERE`, `ORDER BY`
+- Set Operators and Joins
+- Aggregate Functions and Relational Concepts
 
-- **Built-in Functions:** String, DateTime, Math, Type Conversion  
-- **User Defined Functions (UDFs)** – Scalar & Table-Valued  
-- **Views:** Creation, Updatable Views, Indexed Views  
-- **Stored Procedures:** Handling Insert/Update/Delete/Fetch logic  
-- **Triggers:** For enforcing business rules and inventory integrity
-
-**📁 Folder:** `Week-2-BuiltIn-Functions/`  
-**📄 File:** `Level B Task Solutions.sql`
-
----
-### 🔹 Week 3 - Indexes, Stored Procedures & Subqueries
-
-This week dives into **performance optimization** and **modular SQL programming** through indexes, stored procedures, and subqueries.
-
-#### 📚 Key Topics:
-
-- Temporary Tables  
-- Indexes (Part 1 & 2)  
-- Unique vs Non-Unique Indexes  
-- Pros and Cons of Indexes  
-- Stored Procedures  
-- Stored Procedures with Output Parameters (Part 1 & 2)  
-- Advantages of Stored Procedures  
-- Subqueries & Correlated Subqueries  
-- Performance Comparison: Subquery vs Join  
-
-📁 **Folder:** `Week-3-Indexes/`  
-📄 **Assignment:** `Level C Task Solutions`
+📁 **Folder:** `Week-1-DDL`  
+📄 **File:** `Level A Task Solutions.sql`
 
 ---
 
-## 🛠️ Getting Started
+### ✅ Week 2: Functions, Views, Procedures & Triggers  
+**Topics Covered:**
+- SQL Server Built-in Functions (Date, String, Conversion, etc.)
+- Scalar & Table-Valued User Defined Functions (UDFs)
+- Views: Basic, Updatable, Indexed
+- Stored Procedures for Data Operations
+- Triggers for enforcing logic and automation
 
-To run the scripts:
-
-1. Clone this repo or [Download ZIP](https://github.com/your-repo-link)
-2. Open `.sql` files using **SSMS** or **Azure Data Studio**
-3. Connect to the `AdventureWorks2022` database
-4. Run each script in sequence (files are well-commented for clarity)
+📁 **Folder:** `Week-2-BuiltIn-Functions`  
+📄 **File:** `Level B Task Solutions.sql`
 
 ---
 
-## 👨‍🎓 Author
+### ✅ Week 3: Indexing, Subqueries & Advanced Procedures  
+**Topics Covered:**
+- Indexes: Clustered, Non-Clustered, Unique vs Non-Unique
+- Temporary Tables for modular querying
+- Subqueries: Simple & Correlated
+- Output Parameters in Stored Procedures
+- Performance Analysis: Subqueries vs Joins
+
+📁 **Folder:** `Week-3-Indexes`  
+📄 **File:** `Level C Task Solutions.sql`
+
+---
+
+## 🛠️ How to Use
+
+> **Prerequisites:**  
+> SQL Server Management Studio (SSMS) or Azure Data Studio  
+> AdventureWorks2022 Sample Database  
+
+**Steps:**
+1. Clone the repo or download it as ZIP  
+2. Open the `.sql` files in your SQL client  
+3. Connect to the `AdventureWorks2022` database  
+4. Execute scripts as per weekly folders  
+
+---
+
+## 🙋‍♂️ About Me
 
 **Rohit Wakchaure**  
-🎓 SQL Intern @ Celebal Technologies  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/rohit-wakchaure/)
+SQL Enthusiast & Intern @ Celebal Technologies  
+📧 _rohitwakchaure@gmail.com_  
+🔗 [LinkedIn](https://www.linkedin.com/in/rohit-wakchaure/)
 
 ---
 
-> ✅ _This repository is actively updated with weekly assignments and practical tasks._
+## 📝 Note
+
+> 💡 *This repository is being updated weekly as the internship progresses. All scripts are well-documented for learning and reference purposes.*
