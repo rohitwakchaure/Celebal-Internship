@@ -46,6 +46,26 @@ Advanced SQL concepts implemented using the **AdventureWorks2022** database:
 **📄 File:** `Level B Task Solutions.sql`
 
 ---
+### 🔹 Week 3 - Indexes, Stored Procedures & Subqueries
+
+This week dives into **performance optimization** and **modular SQL programming** through indexes, stored procedures, and subqueries.
+
+#### 📚 Key Topics:
+
+- Temporary Tables  
+- Indexes (Part 1 & 2)  
+- Unique vs Non-Unique Indexes  
+- Pros and Cons of Indexes  
+- Stored Procedures  
+- Stored Procedures with Output Parameters (Part 1 & 2)  
+- Advantages of Stored Procedures  
+- Subqueries & Correlated Subqueries  
+- Performance Comparison: Subquery vs Join  
+
+📁 **Folder:** `Week-3-Indexes/`  
+📄 **Assignment:** `Level C Task Solutions`
+
+---
 
 ## 🛠️ Getting Started
 
