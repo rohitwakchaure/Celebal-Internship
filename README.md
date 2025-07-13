@@ -1,83 +1,113 @@
-# 🎓 Celebal Technologies - Summer Internship 2025  
-**Role: SQL Intern**  
-📅 _June 2 – August 3, 2025_  
-🔗 [LinkedIn](https://www.linkedin.com/in/rohit-wakchaure/)
+# 📊 Celebal SQL Internship Tasks - Summer 2025
+
+Welcome to the official repository for SQL tasks completed during my internship at **Celebal Technologies**. Tasks are organized week-wise based on the internship modules.
 
 ---
 
-## 📘 About the Internship
+## 📅 Internship Overview
 
-This repository contains all the SQL assignments and practical tasks completed during my **Summer Internship at Celebal Technologies**. The content is structured **week-wise** and follows the official internship module provided by the company.
-
-Each folder corresponds to one week and includes `.sql` files with complete solutions, detailed comments, and working examples based on the **AdventureWorks2022** database.
-
----
-
-## 📌 Weekly Task Overview
-
-### ✅ Week 1: SQL Basics & DDL Operations  
-**Topics Covered:**
-- Schema & Table creation using `CREATE`, `ALTER`, `DROP`
-- Constraints: `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `CHECK`, etc.
-- CRUD: `INSERT`, `UPDATE`, `DELETE`
-- Data retrieval using `SELECT`, `WHERE`, `ORDER BY`
-- Set Operators and Joins
-- Aggregate Functions and Relational Concepts
-
-📁 **Folder:** `Week-1-DDL`  
-📄 **File:** `Level A Task Solutions.sql`
+| Details       | Information                          |
+|--------------|--------------------------------------|
+| 🏢 Company    | Celebal Technologies                 |
+| 👨‍💻 Role     | SQL Intern                           |
+| 📆 Duration   | June 2, 2025 – August 3, 2025        |
 
 ---
 
-### ✅ Week 2: Functions, Views, Procedures & Triggers  
-**Topics Covered:**
-- SQL Server Built-in Functions (Date, String, Conversion, etc.)
-- Scalar & Table-Valued User Defined Functions (UDFs)
-- Views: Basic, Updatable, Indexed
-- Stored Procedures for Data Operations
-- Triggers for enforcing logic and automation
+## 📚 Weekly Task Summary
 
-📁 **Folder:** `Week-2-BuiltIn-Functions`  
-📄 **File:** `Level B Task Solutions.sql`
+### 🔹 Week 1: DDL & Basic SQL
 
----
+**Topics Covered**:
+- Database/Table creation, altering, dropping
+- Constraints: Primary, Foreign, Default, etc.
+- Data types, DML commands (`INSERT`, `UPDATE`, `DELETE`)
+- Joins, aggregation, set operations
 
-### ✅ Week 3: Indexing, Subqueries & Advanced Procedures  
-**Topics Covered:**
-- Indexes: Clustered, Non-Clustered, Unique vs Non-Unique
-- Temporary Tables for modular querying
-- Subqueries: Simple & Correlated
-- Output Parameters in Stored Procedures
-- Performance Analysis: Subqueries vs Joins
-
-📁 **Folder:** `Week-3-Indexes`  
-📄 **File:** `Level C Task Solutions.sql`
+📁 Folder: `Week-1-DDL/`  
+📄 Assignment: `Level A Task Solutions`
 
 ---
 
-## 🛠️ How to Use
+### 🔹 Week 2: Functions, Procedures, Views & Triggers
 
-> **Prerequisites:**  
-> SQL Server Management Studio (SSMS) or Azure Data Studio  
-> AdventureWorks2022 Sample Database  
+**Topics Covered**:
+- Built-in functions (String, DateTime, Math)
+- User-defined functions (UDFs)
+- Views: Updatable, Indexed
+- Stored Procedures for CRUD operations
+- Triggers for integrity & inventory
 
-**Steps:**
-1. Clone the repo or download it as ZIP  
-2. Open the `.sql` files in your SQL client  
-3. Connect to the `AdventureWorks2022` database  
-4. Execute scripts as per weekly folders  
-
----
-
-## 🙋‍♂️ About Me
-
-**Rohit Wakchaure**  
-SQL Enthusiast & Intern @ Celebal Technologies  
-📧 _rohitwakchaure@gmail.com_  
-🔗 [LinkedIn](https://www.linkedin.com/in/rohit-wakchaure/)
+📁 Folder: `Week-2-BuiltIn-Functions/`  
+📄 Assignment: `Level B Task Solutions`
 
 ---
 
-## 📝 Note
+### 🔹 Week 3: Indexes & Subqueries
 
-> 💡 *This repository is being updated weekly as the internship progresses. All scripts are well-documented for learning and reference purposes.*
+**Topics Covered**:
+- Temporary tables
+- Indexes (unique, non-unique, pros/cons)
+- Stored Procedures (with/without output)
+- Subqueries & Correlated Subqueries
+
+📁 Folder: `Week-3-Indexes/`  
+📄 Assignment: `Level C Task Solutions`
+
+---
+
+### 🔹 Week 4: Triggers & Student Allotment
+
+**Topics Covered**:
+- DML Triggers: `AFTER`, `INSTEAD OF`
+- Stored Procedure: GPA-based student subject allotment
+
+📁 Folder: `Week-4-Triggers/`  
+📄 Assignment: `Student Allotment Problem`
+
+---
+
+### 🔹 Week 5: Common Table Expressions (CTE)
+
+**Topics Covered**:
+- CTE basics, recursive and updatable CTEs
+- Subject change tracking using procedures
+
+📁 Folder: `Week-5-CTE/`  
+📄 Assignment: `Subject Change Request`
+
+---
+
+### 🔹 Week 6: Pivot, Transactions & LeetCode Problems
+
+**Topics Covered**:
+- `PIVOT` / `UNPIVOT` usage
+- Error Handling: `TRY...CATCH`
+- Transactions & ACID properties
+- `MERGE` statement
+- Window Functions: `ROW_NUMBER()`, `RANK()`, `NTILE()`
+- LeetCode-style challenges
+
+📁 Folder: `Week-6-Pivot/`  
+📄 Assignment: `LeetCode Questions`
+
+---
+
+## 🚀 Usage Instructions
+
+1. Clone or download this repository  
+2. Open `.sql` files in SSMS or MySQL WorkBench  
+3. Use **AdventureWorks2022** database  
+4. Review commented solutions in each file  
+
+---
+
+## 👤 Author Info
+
+**Wakchaure Rohit**  
+SQL Intern @ Celebal Technologies  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/rohit-wakchaure/)
+
+---
+
+> ✅ _Repository is updated weekly with new tasks._
