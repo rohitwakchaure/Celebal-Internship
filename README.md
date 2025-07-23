@@ -93,6 +93,27 @@ Welcome to the official repository for SQL tasks completed during my internship 
 
 ---
 
+### 🔹 Week 7 - Slowly Changing Dimensions (SCD) – Types 0, 1, 2, 3, 4, 6
+
+This week dives deep into **Slowly Changing Dimensions (SCD)** — a critical concept in **Data Warehousing and ETL** processes. Each SCD type handles historical changes in dimension tables differently. The assignment includes implementation of stored procedures for each SCD type using **SQL Server**.
+
+#### 📚 Key Topics
+
+- **SCD Type 0**: Fixed dimensions (no changes allowed)
+- **SCD Type 1**: Overwrite old data (no history maintained)
+- **SCD Type 2**: Historical tracking via versioning or effective dates
+- **SCD Type 3**: Limited history with previous and current column versions
+- **SCD Type 4**: History stored in a separate historical table
+- **SCD Type 6**: Hybrid approach (Types 1 + 2 + 3)
+
+Each SCD type is implemented through a **dedicated stored procedure** to handle `INSERT` and `UPDATE` operations based on the logic of that dimension type.
+
+
+📁 **Folder:** `Week-7-Star and Snowflake Schema/`  
+📄 **Assignment:** `Create Stored Procedures for SCD Types`
+
+---
+
 ## 🚀 Usage Instructions
 
 1. Clone or download this repository  
