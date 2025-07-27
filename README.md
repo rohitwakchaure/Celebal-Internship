@@ -113,6 +113,36 @@ Each SCD type is implemented through a **dedicated stored procedure** to handle 
 📄 **Assignment:** `Create Stored Procedures for SCD Types`
 
 ---
+---
+### 🔹 Week 8 – CDC, SCD Type 2, Dynamic SQL & OLAP Operations
+
+This week focuses on **Change Tracking**, **historical dimension handling**, **dynamic SQL generation**, and **OLAP-style aggregations** in SQL Server. These concepts are widely used in real-world **ETL pipelines**, **reporting systems**, and **data marts**.
+
+#### 📚 Key Topics
+
+- **CDC (Change Data Capture)**:  
+  Track and log changes (INSERTs, UPDATEs, DELETEs) to source tables for incremental ETL processing.
+
+- **SCD Type 2**:  
+  Maintain a full history of changes by inserting new rows on update, using `start_date`, `end_date`, and `is_current` flags or versioning columns.
+
+- **Dynamic SQL**:  
+  Learn how to generate flexible queries at runtime using `EXEC` or `sp_executesql`.
+
+- **OLAP Features in SQL Server**:  
+  Use advanced SQL grouping techniques for data summarization:
+  - `GROUPING SETS`
+  - `ROLLUP`
+  - `CUBE`
+
+These operations allow **multi-level aggregations** without multiple `GROUP BY` statements, optimizing performance for analytics.
+
+---
+
+📁 **Folder:** `Week-8-CDC/`  
+📄 **Assignment:** `PopulateTimeDimension.sql` – Write a stored procedure to populate a Time Dimension table for all dates of a year based on one input date, using a single `INSERT` and recursive CTE.
+
+---
 
 ## 🚀 Usage Instructions
 
